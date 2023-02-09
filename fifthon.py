@@ -105,7 +105,7 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 **☆ Welcome to Source
-☆ Version : 1.3
+☆ Version : 1.4
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
