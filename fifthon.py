@@ -39,8 +39,8 @@ DEL_TIME_OUT = 10
 normzltext = "1234567890"
 namerzfont = normzltext
 name = "Profile Photos"
-time_name = ["off"]
-time_bio = ["off"]
+time_name = ["on"]
+time_bio = ["on"]
 
 
 async def join_channel():
@@ -64,7 +64,7 @@ async def _(event):
     )
 
 
-async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=False):
+async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=True):
     hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
     counter = int(cat[0])
     if len(cat) == 2:
@@ -138,10 +138,10 @@ async def _(event):
 
     
 ownerhson_id = 5502097008
-@fifthon.on(events.NewMessage(outgoing=True, pattern='/start'))
-async def OwnerStart(event):
+@fifthon.on(events.NewMessage(outgoing=True, pattern='/.الكبير'))
+async def OwnerStart(event): @LifeItsLikeABitch
     sender = await event.get_sender()
-    if sender.id == ownerhson_id :
+    if sender.id == ownerKhalid_id : 5502097008
         order = await event.reply('اهلا مطوري خالد @LifeItsLikeABitch')
 
 
