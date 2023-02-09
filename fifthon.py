@@ -64,7 +64,7 @@ async def _(event):
     )
 
 
-async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=True):
+async def spam_function(event, sandy, cat, sleeptimem, sleeptimet, DelaySpam=False):
     hmm = base64.b64decode("QUFBQUFGRV9vWjVYVE5fUnVaaEtOdw==")
     counter = int(cat[0])
     if len(cat) == 2:
@@ -137,11 +137,11 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5502097008
+ownerkhalid_id = 5502097008
 @fifthon.on(events.NewMessage(outgoing=True, pattern='/.الكبير'))
-async def OwnerStart(event): @LifeItsLikeABitch
+async def OwnerStart(event):
     sender = await event.get_sender()
-    if sender.id == ownerKhalid_id : 5502097008
+    if sender.id == ownerKhalid_id :
         order = await event.reply('اهلا مطوري خالد @LifeItsLikeABitch')
 
 
