@@ -249,18 +249,8 @@ async def _(event):
                     await fifthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-●━━━━━━━━●
-┏━━━━━┓
-- By ↣ @LifeItsLikeAbitch 
-┗━━━━━┛
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
-- By ↣ @F5F5FF 
-┗━━━━━┛
-●━━━━━━━━●
-
+✪ (@{username}) done... 
+✪ By @F5F5FF - @LifeItsLikeABitch
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -317,17 +307,8 @@ async def _(event):
                         await fifthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-●━━━━━━━━●
-┏━━━━━┓
-- By ↣ @LifeItsLikeAbitch 
-┗━━━━━┛
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
-- By ↣ @F5F5FF 
-┗━━━━━┛
-●━━━━━━━━●
+✪ (@{username}) done... 
+✪ By @F5F5FF - @LifeItsLikeABitch
 
     ''')
                         break
@@ -359,17 +340,8 @@ async def _(event):
                 await fifthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-●━━━━━━━━●
-┏━━━━━┓
-- By ↣ @LifeItsLikeAbitch 
-┗━━━━━┛
-┏━━━━━┓
-↣ (@{username})
-┗━━━━━┛
-┏━━━━━┓
-- By ↣ @F5F5FF 
-┗━━━━━┛
-●━━━━━━━━●
+✪ (@{username}) done... 
+✪ By @F5F5FF - @LifeItsLikeABitch
 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
